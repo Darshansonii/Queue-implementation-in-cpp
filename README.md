@@ -1,7 +1,7 @@
 # Queue-implementation-in-cpp
 
 AIM
-
+--------------------------------------------------
 The aim of this project is to implement and demonstrate the working of a Queue data structure in C++ by performing the fundamental operations:
 1. Enqueue (Insertion)
 2. Dequeue (Deletion)
@@ -11,8 +11,9 @@ The aim of this project is to implement and demonstrate the working of a Queue d
 The project helps in understanding how data is managed in a FIFO (First In – First Out) manner and its importance in solving real-world problems like scheduling, buffering, and resource management.
 
 
+--------------------------------------------------
 THEORY
-
+--------------------------------------------------
 A Queue is a linear data structure that follows the FIFO (First In, First Out) principle. 
 The element inserted first is removed first.
 
@@ -49,8 +50,9 @@ LIMITATIONS:
 - Linked list implementation uses extra memory for pointers.
 
 
+--------------------------------------------------
 ALGORITHM
-
+--------------------------------------------------
 ENQUEUE (Insert)
 1. Check if the queue is full. If yes, display "Overflow".
 2. Increment rear = rear + 1.
@@ -70,8 +72,9 @@ DISPLAY
 2. If not empty, traverse from front to rear and print all elements.
 
 
+--------------------------------------------------
 CONCLUSIONS
-
+--------------------------------------------------
 - The queue follows the FIFO principle, ensuring orderly execution.
 - Implementation of enqueue and dequeue operations helps in understanding sequential data management.
 - Queues are widely applicable in CPU scheduling, job handling, printers, and communication systems.
